@@ -6,10 +6,12 @@
  font-size: 17px;
 color: black;
 padding-right: 25px;
+font-family: 'Open Sans', sans-serif;
+
 }
 .navbar a:hover {
     color: blue; /* Change text color on hover */
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid red;
    
 }
 
