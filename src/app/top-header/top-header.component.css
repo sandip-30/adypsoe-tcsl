@@ -1,0 +1,30 @@
+/* *{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} */
+
+
+.top-header {
+    background-color: black;
+    padding: 10px ;
+	height: 50px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.top-header a {
+	font-size: 18px;
+}
+.contact-info li{
+	display:inline;
+	font-weight:400;	
+	font-size: 18px;
+	color:white;
+	
+}
+
+.contact-info li a {
+    color: #ffff;
+    padding-bottom: 3px;
+}
