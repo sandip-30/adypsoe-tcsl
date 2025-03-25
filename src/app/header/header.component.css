@@ -1,3 +1,15 @@
 .nav-item li a{
     font-weight: 400;
 }
+
+.navbar-light .navbar-nav .nav-link {
+ font-size: 17px;
+color: black;
+padding-right: 25px;
+}
+.navbar a:hover {
+    color: blue; /* Change text color on hover */
+    border-bottom: 3px solid blue;
+   
+}
+
