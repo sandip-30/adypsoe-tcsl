@@ -1,0 +1,26 @@
+.container-fuild{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+  /* Fix image height and crop excess */
+  .card-img-top {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Crop image while maintaining aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Zoom effect on hover */
+.card:hover .card-img-top {
+    transform: scale(1.1); /* Slightly increase size */
+}
+
+/* Ensure all cards are the same height */
+.card {
+    height: 100%; /* Makes all cards the same height */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures content expands evenly */
+}

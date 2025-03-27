@@ -1,0 +1,38 @@
+
+.hero {
+    position: relative;
+    background: url('../../../public/whyUsBackground.jpg') no-repeat center center/cover;
+    min-height: 100%; /* Ensures it takes full column height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.row {
+    min-height: 400px; /* Ensures both columns have the same height */
+}
+
+.text-column {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: orange;
+}
